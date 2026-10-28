@@ -1,0 +1,10 @@
+# Local Python environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Local VS Code settings
+.vscode/
+src/solver/__pycache__/sokobot.cpython-312.pyc
