@@ -198,4 +198,3 @@ class SokoBot:
                             (next_cost + h, next_cost, next(serial), crate, changed)
                         )
         return ''  # cant solve
-        return ''
