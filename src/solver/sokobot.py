@@ -15,10 +15,6 @@ Usage:
         .\\sokobot.bat testlevel
         .\\sokobot.bat testlevel --gui
 
-Branch Notes (feature/astar-solver):
-    This is an experimental solver. For testing, change BOTH imports:
-        src/main/driver.py: from src.solver.sokobot_solver_v2 import SokoBot
-        src/gui/game.py:    from src.solver.sokobot_solver_v2 import SokoBot (line 263)
 References:
     https://timallanwheeler.com/blog/2022/01/19/basic-search-algorithms-on-sokoban/
     https://www.asiergoni.com/projects/weighted-sokoban-solver-a     
