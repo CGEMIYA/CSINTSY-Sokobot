@@ -260,7 +260,7 @@ class Game:
         return True
 
     def start_thinking(self):
-        from src.solver.sokobot_solver_v2 import SokoBot
+        from src.solver.sokobot import SokoBot
 
         self.waiting_for_space = False
         self.status_string = self.STATUS_WAITING_FOR_SOLUTION

@@ -2,7 +2,7 @@ import os
 import sys
 
 from src.reader.file_reader import FileReader
-from src.solver.sokobot_solver_v2 import SokoBot
+from src.solver.sokobot import SokoBot
 
 
 def split_map(map_data):
