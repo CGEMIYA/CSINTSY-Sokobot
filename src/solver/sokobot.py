@@ -1,5 +1,5 @@
 """
-sokobot_solver_v2.py
+sokobot.py
 
 Desc:
     g(n) = steps taken so far
